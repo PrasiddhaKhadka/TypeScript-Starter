@@ -60,3 +60,36 @@ function calculateDiscount(price:number):number{
 sayHello('Ram')
 const discountedPrice:number = calculateDiscount(111)
 console.log(discountedPrice);
+
+
+// ARRAYS IN TYPESCRIPT:
+const names:string[] = ['Ram','Sam','Hari','Gita','Babita']
+// let isExist:boolean = false;
+
+function nameExist(searchName: string): boolean {
+    for (let name of names) {
+        if (name === searchName) {
+            return true;
+        }
+    }
+    return false;
+}
+
+// function nameExist(searchName: string): boolean {
+//     return names.includes(searchName);
+// }
+
+
+
+console.log(names);
+const existName = nameExist('Ram')
+
+console.log("*** **** *****")
+console.log(existName)
+console.log("*** **** *****")
+
+
+console.log("^^^^^^ ^^^^^^ ^^^^^^")
+const existNameNew = nameExist('vnvnvvn')
+console.log(existNameNew)
+console.log("*** **** *****")
