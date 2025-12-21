@@ -8,7 +8,8 @@ import { setupCounter } from './counter.ts'
 // import './interface.ts'
 // import './interface_obj.ts'
 // import './tuple.ts'
-import './enums.ts'
+// import './enums.ts'
+import './type_assesertion.ts'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
