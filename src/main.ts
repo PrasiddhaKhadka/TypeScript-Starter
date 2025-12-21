@@ -6,8 +6,9 @@ import { setupCounter } from './counter.ts'
 // import './function_tutorial.ts'
 // import './alias.ts'
 // import './interface.ts'
-import './interface_obj.ts'
-
+// import './interface_obj.ts'
+// import './tuple.ts'
+import './enums.ts'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
